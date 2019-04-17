@@ -6,5 +6,5 @@ The proxy will accept any connections on port 8888.
 
 ## Usage
 
-    docker --rm -d --name tinyproxy -p 8888:8888 individuwill/tinyproxy 
+    docker run --rm -d --name tinyproxy -p 8888:8888 individuwill/tinyproxy 
 
